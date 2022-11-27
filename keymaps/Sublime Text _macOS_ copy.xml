@@ -64,6 +64,13 @@
   <action id="EditorToggleColumnMode" />
   <action id="EditorToggleInsertState" />
   <action id="FillParagraph" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="alt n" />
+    <keyboard-shortcut first-keystroke="alt dead_tilde" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift alt n" />
+  </action>
   <action id="GotoSymbol" />
   <action id="HideActiveWindow" />
   <action id="HideAllWindows">
@@ -130,4 +137,5 @@
   <action id="hg4idea.add" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+  <action id="tasks.goto" />
 </keymap>
