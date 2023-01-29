@@ -1,0 +1,9 @@
+<keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+  <action id="EditorStartNewLineBefore" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+</keymap>
